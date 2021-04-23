@@ -1,0 +1,22 @@
+#box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #07347D;
+    text-align: center;
+    box-shadow: 5px 5px #000000;
+    width: 627px;
+    height: 184px;
+    left: 5%;
+    top: 200px;    
+}
+
+.box-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    left: 5%;
+    top: 420px;
+    width: 627px;
+}
