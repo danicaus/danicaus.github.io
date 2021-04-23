@@ -1,25 +1,11 @@
 .box {
-    position: absolute;
     display: inline-block;
-    flex-direction: column;
-    justify-content: center;
     background-color: #07347D;
-    text-align: center;
     box-shadow: 5px 5px #000000;
-    left: 5%;
-    top: 200px;
-    padding: 42px 44px;    
+    text-align: center;
+    padding: 42px 44px;
 }
 
 .box .title {
     margin-bottom: 28px;
-}
-
-.box-buttons {
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
-    left: 5%;
-    top: 420px;
-    width: 627px;
 }
