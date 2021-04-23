@@ -89,7 +89,7 @@ button:active {
 }
 
 .photo-blur {
-    
+    background-image: url(https://github.com/danicaus/danicaus.github.io/blob/master/assets/img/background-photo.jpg?raw=true);
 }
 
 .background {
@@ -98,25 +98,12 @@ button:active {
     flex-direction: column;
     justify-content: center;
     background-color: #07347D;
-    color: #FFFFFF;
-    text-shadow: 4px 4px 0px #000000;
-    font-family: 'Zen Dots', sans-serif;
     text-align: center;
     box-shadow: 5px 5px #000000;
     width: 627px;
     height: 184px;
     left: 5%;
     top: 200px;    
-}
-
-h1 {
-    font-size: 50px;
-    margin: 10px;
-}
-
-h2 {
-    font-size: 25px;
-    margin: 10px;
 }
 
 .buttons {
