@@ -1,0 +1,22 @@
+.menu-header {
+    display: inline-flex;
+    align-items: center;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    margin-right: 30px;    
+}
+
+.menu-header::before {
+    content:"";
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:#D295D5;
+    margin-right:10px;
+}
+
+.menu-header:hover {
+    text-decoration: underline;
+}

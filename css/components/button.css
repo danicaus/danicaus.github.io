@@ -1,8 +1,7 @@
-button {
+.button {
     display:inline-block;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    border: none;
     color:#FFF;
     background-color:#D295D5;
     padding: 16px 20px;
@@ -13,12 +12,12 @@ button {
     transition: 50ms linear;
 }
 
-button:hover {
+.button:hover {
     background-color:#936995;
     transform: scale(1.02);
 }
 
-button:active {
+.button:active {
     box-shadow: 2px 2px #000000;
     transform: translateY(3px) translateX(3px);
 }

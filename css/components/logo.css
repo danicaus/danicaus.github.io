@@ -1,0 +1,26 @@
+.logo {
+    font-family: 'Zen Dots', cursive;
+    color:#FFFFFF;
+    font-size: 20px;
+    height: 50px;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0 3px;
+    margin: 3px 0;
+    transition: .4s ease-in-out;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.nome {
+    position: absolute;
+    left: -60px;
+    transition: 0.4s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.logo:hover .nome {
+    transform: translateX(82px);
+}

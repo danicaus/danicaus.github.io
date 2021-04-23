@@ -41,3 +41,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+button {
+	border:none;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
