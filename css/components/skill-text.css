@@ -1,5 +1,6 @@
-.title {
+.skill-text {
     color: #FFFFFF;
     font-family: 'Zen Dots', sans-serif;
-    font-size: 50px;
+    font-size: 20px;
+    display: inline;
 }
