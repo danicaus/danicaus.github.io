@@ -1,4 +1,4 @@
-.menu-header {
+.header-menu {
     display: inline-flex;
     align-items: center;
     color:#FFFFFF;
@@ -8,7 +8,7 @@
     margin-right: 30px;    
 }
 
-.menu-header::before {
+.header-menu::before {
     content:"";
     display:inline-block;
     width: 10px;
@@ -17,6 +17,6 @@
     margin-right:10px;
 }
 
-.menu-header:hover {
+.header-menu:hover {
     text-decoration: underline;
 }

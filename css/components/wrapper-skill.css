@@ -22,7 +22,7 @@
     grid-area:cel6;
 }
 
-.skill {
+.wrapper-skill {
     display: grid;
     grid-template-rows: 90px 90px 90px;
     grid-template-columns: 430px 430px;
@@ -32,17 +32,15 @@
         "cel3 cel4"
         "cel5 cel6";
     place-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
     justify-content: center;
 }
 
-.skill .skill-grid-cell {
+.wrapper-skill .skill-grid-cell {
     display: inline-flex;
 }
 
 .skill-grid-cell .skill-progress {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }

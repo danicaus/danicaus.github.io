@@ -1,5 +1,6 @@
 .button {
     display:inline-block;
+    text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color:#FFF;

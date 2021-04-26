@@ -1,7 +1,12 @@
 .skill-bar {
+        box-sizing: border-box;
         background-color:white;
         height: 40px;
         width: 320px;
         border: 5px solid #000000;
-        margin-top: 10px;
+}
+
+.skill-bar::-webkit-progress-value, 
+.skill-bar::-moz-progress-bar {
+        background-color: #07347D;
 }
