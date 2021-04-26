@@ -2,9 +2,6 @@
     background-color:#D295D5;
     display: flex;
     flex-direction: column;
-}
-
-.skills .title {
-    text-align: center;
-    margin-top: 50px;
+    padding: 50px;
+    border: 5px solid #07347D;
 }

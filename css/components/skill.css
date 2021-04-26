@@ -40,3 +40,9 @@
 .skill .skill-grid-cell {
     display: inline-flex;
 }
+
+.skill-grid-cell .skill-progress {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}

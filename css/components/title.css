@@ -1,5 +1,12 @@
 .title {
-    color: #FFFFFF;
+    color: #D295D5;
+    text-shadow: 4px 4px 0px #000000;
     font-family: 'Zen Dots', sans-serif;
     font-size: 50px;
+}
+
+.title.-second {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: none;
 }
