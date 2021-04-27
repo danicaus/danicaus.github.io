@@ -22,7 +22,7 @@
     grid-area:cel6;
 }
 
-.wrapper-skill {
+.grid-skill {
     display: grid;
     grid-template-rows: 90px 90px 90px;
     grid-template-columns: 430px 430px;
@@ -35,7 +35,7 @@
     justify-content: center;
 }
 
-.wrapper-skill .skill-grid-cell {
+.grid-skill .skill-grid-cell {
     display: inline-flex;
 }
 
