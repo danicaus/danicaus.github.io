@@ -1,4 +1,4 @@
-.logo {
+.logo-danicaus {
     font-family: 'Zen Dots', cursive;
     color:#FFFFFF;
     font-size: 20px;
@@ -15,12 +15,12 @@
     text-shadow: 2px 2px 0px #000000;
 }
 
-.nome {
+.logo-nome {
     position: absolute;
     left: -60px;
     transition: 0.4s cubic-bezier(.68,-0.55,.27,1.55);
 }
 
-.logo:hover .nome {
+.logo-danicaus:hover .logo-nome {
     transform: translateX(82px);
 }
