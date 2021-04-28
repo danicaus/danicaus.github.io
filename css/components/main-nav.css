@@ -1,4 +1,4 @@
-.header-nav {
+.main-nav {
     display: inline-flex;
     align-items: center;
     color:#FFFFFF;
@@ -8,7 +8,7 @@
     margin-right: 30px;    
 }
 
-.header-nav::before {
+.main-nav::before {
     content:"";
     display:inline-block;
     width: 10px;
@@ -17,6 +17,6 @@
     margin-right:10px;
 }
 
-.header-nav:hover {
+.main-nav:hover {
     text-decoration: underline;
 }
