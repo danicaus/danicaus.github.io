@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display:inline-block;
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
@@ -13,12 +13,12 @@
     transition: 50ms linear;
 }
 
-.button:hover {
+.main-button:hover {
     background-color:#936995;
     transform: scale(1.02);
 }
 
-.button:active {
+.main-button:active {
     box-shadow: 2px 2px #000000;
     transform: translateY(3px) translateX(3px);
 }
