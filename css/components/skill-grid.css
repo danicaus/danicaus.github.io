@@ -39,7 +39,7 @@
     display: inline-flex;
 }
 
-.skill-grid-cell .skill-progress {
+.skill-grid-cell .wrapper-progress {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
