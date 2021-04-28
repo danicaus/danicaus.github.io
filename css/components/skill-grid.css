@@ -35,11 +35,11 @@
     justify-content: center;
 }
 
-.skill-grid .skill-grid-cell {
+.skill-grid .grid-cell {
     display: inline-flex;
 }
 
-.skill-grid-cell .wrapper-progress {
+.grid-cell .wrapper-progress {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
