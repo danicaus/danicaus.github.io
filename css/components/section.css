@@ -6,6 +6,14 @@
     border-bottom: 10px solid #07347D;
 }
 
-.section.-third {
-    background-color:#07347D; 
+.section .main-title {
+    margin-bottom: 100px;
+}
+
+.section.-bgBlack {
+    background-color:#000000; 
+}
+
+.section.-bdFirst {
+    border-color:#D295D5;
 }
