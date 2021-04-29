@@ -1,0 +1,10 @@
+.about-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 300;
+    line-height: 1.25;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+}
