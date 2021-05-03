@@ -1,0 +1,5 @@
+.timeline-vertical-line {
+    width: 0px;
+    height: 40px;
+    border: 5px dashed #000;
+}

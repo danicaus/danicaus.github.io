@@ -1,0 +1,10 @@
+.timeline-box {
+    display: inline-flex;
+
+}
+
+.timeline-companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
