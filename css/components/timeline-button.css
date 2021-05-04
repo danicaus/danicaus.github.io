@@ -1,0 +1,19 @@
+.timeline-button {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 150px; 
+    background: rgba(20, 20, 20, 0.5);
+}
+
+.-btPrevious {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.-btNext {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
