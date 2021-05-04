@@ -1,11 +1,22 @@
 .timeline-wrapper {
     display: flex;
+    justify-content: space-between;
+    padding: 0 55px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .timeline-box {
-    position: relative;
     display: inline-flex;
-    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.timeline-corner {
+    backdrop-filter: opacity(0.5);
+    position: absolute;
 }
 
 .timeline-box::before {
