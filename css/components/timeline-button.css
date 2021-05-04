@@ -29,3 +29,24 @@
 .timeline-wrapper .timeline-corner.-right {
     right: -5px;
 }
+
+.timeline-arrow-right {
+    transform: rotate(180deg);
+    opacity: 0;
+}
+
+.timeline-arrow-left {
+    opacity: 0;
+}
+
+.timeline-arrow-right:hover{
+    transform: rotate(180deg) scale(1.05);
+}
+
+.timeline-arrow-left:hover{
+    transform: scale(1.05);
+}
+
+.timeline-wrapper:hover .timeline-arrow-right, .timeline-wrapper:hover .timeline-arrow-left{
+    opacity: 1;
+}
