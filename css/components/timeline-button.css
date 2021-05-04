@@ -16,7 +16,6 @@
 .-btNext {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    right: 0px;
 }
 
 .timeline-wrapper .timeline-button {
@@ -28,5 +27,5 @@
 }
 
 .timeline-wrapper .timeline-corner.-right {
-    right: 0px;
+    right: -5px;
 }

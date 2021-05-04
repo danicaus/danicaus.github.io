@@ -5,27 +5,35 @@
     box-sizing: border-box;
     position: relative;
     overflow-x: hidden;
+    overflow-y: visible;
 }
 
-.timeline-box {
+.timeline-wrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+    height: 10px;
+    width: calc(100% - 120px);
+    background-color: #000;
+    z-index:1;
+}
+
+.timeline-slider {
+    transform: translateX(0px);
+}
+
+.timeline-wrapper .timeline-slider {
     display: inline-flex;
     position: relative;
-    overflow-x: visible;
     z-index: 0;
+    overflow-x: visible;
+    width: 100%;
+    transition: transform .54s cubic-bezier(.5,0,.1,1) 0s;
 }
 
 .timeline-corner {
-    backdrop-filter: opacity(0.5);
     position: absolute;
-}
-
-.timeline-box::before {
-    content: '';
-    position: absolute;
-    left: 10px;
-    top: 25px;
-    display: block;
-    height: 10px;
-    width: 100%;
-    background-color: #000;
+    z-index: 2;
 }

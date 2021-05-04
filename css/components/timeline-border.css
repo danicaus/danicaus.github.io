@@ -1,7 +1,8 @@
 .timeline-line {
     width: 60px;
-    height: 60px;
+    height: 55px;
     padding-top: 25px;
+    margin-bottom: 5px;
 }
 
 .timeline-border {
