@@ -1,8 +1,8 @@
 .timeline-button {
     display: flex;
-    position: absolute;
     justify-content: center;
     align-items: center;
+    position: absolute;
     width: 55px;
     height: 150px; 
     background: rgba(20, 20, 20, 0.5);
