@@ -33,18 +33,20 @@
 .timeline-arrow-right {
     transform: rotate(180deg);
     opacity: 0;
+    transition: transform .1s cubic-bezier(.5,0,.1,1) 0s;
 }
 
 .timeline-arrow-left {
     opacity: 0;
+    transition: transform .1s cubic-bezier(.5,0,.1,1) 0s;
 }
 
 .timeline-arrow-right:hover{
-    transform: rotate(180deg) scale(1.05);
+    transform: rotate(180deg) scale(1.2);
 }
 
 .timeline-arrow-left:hover{
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
 
 .timeline-wrapper:hover .timeline-arrow-right, .timeline-wrapper:hover .timeline-arrow-left{
