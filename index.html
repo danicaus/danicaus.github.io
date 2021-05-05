@@ -208,20 +208,33 @@
             Tive meu primeiro contato com lógica de programação e C++ na minha graduação em Engenharia de Produção. Trabalhei com RH, logística e controle de estoque antes de ter contato direto com times de tecnologia em uma FinTech. Iniciei analisando a qualidade do atendimento no Customer Sucess, mas lá também realizei treinamentos como consulta a banco de dados via SQL, e fui líder de time de CS. Colaborei em diversos momentos com o time de tecnologia para melhoria da experiência do usuário, analisando feedbacks dos clientes e dos analistas. Agora estou focando no estudo de HTML, CSS e JavaScript, e descobrindo mais formas de construir a melhor experiência do usuário.
         </p>
     </section>
-    <section class="main-section -section-clean">
+    <form class="main-section -section-clean" action="" method="post">
         <h1 class="main-title -second">Contacte-me</h1>
-        <p class="body-text -mgClean">Nome</p>
-        <input type="text" class="contact-input">
-        <p class="body-text -mgClean">E-mail</p>
-        <input type="text" class="contact-input">
-        <p class="body-text -mgClean">Mensagem</p>
-        <input type="text" class="contact-input -msgInput">
-        <button class="main-button -sendButton">Enviar</button>
-    </section>
+        <ul>
+            <li>
+                <label class="body-text -mgClean">Nome
+                    <input type="text" class="contact-input" name="nome" required>
+                </label>
+            </li>
+            <li>
+                <label class="body-text -mgClean">E-mail
+                    <input type="email" class="contact-input" title="Escreva seu e-mail!" name="user_email" required>
+                </label>
+            </li>
+            <li>
+                <label class="body-text -mgClean">Mensagem
+                    <textarea class="contact-input -msgInput" name="mensagem" required></textarea>
+                </label>
+            </li>
+            <li>
+                <button type="submit" class="main-button -sendButton">Enviar</button>
+            </li>
+        </ul>
+    </form>
     <footer class="main-footer">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <i class="fab fa-discord footer-logo"></i>
+        <i class="fab fa-linkedin footer-logo"></i>
+        <i class="fab fa-github-square footer-logo"></i>
     </footer>
     <script src="./scripts/main.js"></script>
 </body>
