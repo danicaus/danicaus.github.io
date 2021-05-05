@@ -4,11 +4,11 @@ const slider=document.querySelector('.timeline-slider')
 var x = 0
 
 previousPage.addEventListener('click', function moveBack(){
-    x = x + 265
+    x = x + 270
     slider.style = `transform:translateX(${x}px);`
 })
 
 nextPage.addEventListener('click', function moveForward(){
-    x = x - 265
+    x = x - 270
     slider.style = `transform:translateX(${x}px);`
 })
