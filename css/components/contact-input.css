@@ -1,0 +1,10 @@
+.contact-input {
+    display: block;
+    height: 50px;
+    color: #000;
+    width: calc(100% - 100px);
+    justify-content: right;
+    margin: 3px 50px;
+    border: 5px solid #000000;
+    box-sizing: border-box;
+}
