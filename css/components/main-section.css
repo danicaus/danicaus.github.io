@@ -24,3 +24,8 @@
 .main-section.-bdBlack {
     border-color: #000000;
 }
+
+.main-section.-section-clean {
+    border: none;
+    background-color: #3A4042;
+}
