@@ -3,8 +3,14 @@
     height: 50px;
     color: #000;
     width: calc(100% - 100px);
-    justify-content: right;
     margin: 3px 50px;
     border: 5px solid #000000;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px ;
+}
+
+.contact-input.-msgInput{
+    height: 350px;
+    overflow: scroll;
 }
