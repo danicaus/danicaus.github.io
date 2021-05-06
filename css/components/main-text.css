@@ -1,4 +1,4 @@
-.body-text {
+.main-text {
     margin: 80px 50px 0 50px;
     font-weight: 300;
     line-height: 1.4;
@@ -8,6 +8,6 @@
     text-align: justify;
 }
 
-.body-text.-mgClean {
-    margin-top: 20px;
+.main-text.-contact-label {
+    margin-left: 0px;
 }
