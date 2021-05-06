@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="/css/components/skill-bar.css">
     <link rel="stylesheet" href="/css/components/wrapper-cards.css">
     <link rel="stylesheet" href="/css/components/project-card.css">
-    <link rel="stylesheet" href="css/components/body-text.css">
+    <link rel="stylesheet" href="css/components/main-text.css">
     <link rel="stylesheet" href="css/components/timeline-wrapper.css">
     <link rel="stylesheet" href="css/components/timeline-logo.css">
     <link rel="stylesheet" href="css/components/timeline-vertical-line.css">
@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/components/contact-input.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/footer-logo.css">
+    <link rel="stylesheet" href="css/components/contact-form.css">
     
 </head>
 <body>
@@ -205,37 +206,36 @@
                 </div>
             </div>
         </div>
-        <p class="body-text">
+        <p class="main-text">
             Tive meu primeiro contato com lógica de programação e C++ na minha graduação em Engenharia de Produção. Trabalhei com RH, logística e controle de estoque antes de ter contato direto com times de tecnologia em uma FinTech. Iniciei analisando a qualidade do atendimento no Customer Sucess, mas lá também realizei treinamentos como consulta a banco de dados via SQL, e fui líder de time de CS. Colaborei em diversos momentos com o time de tecnologia para melhoria da experiência do usuário, analisando feedbacks dos clientes e dos analistas. Agora estou focando no estudo de HTML, CSS e JavaScript, e descobrindo mais formas de construir a melhor experiência do usuário.
         </p>
     </section>
-    <form class="main-section -section-clean" action="" method="post">
+    <section class="main-section -section-clean">
         <h1 class="main-title -second">Contacte-me</h1>
-        <ul>
-            <li>
-                <label class="body-text -mgClean">Nome
-                    <input type="text" class="contact-input" name="nome" required>
-                </label>
-            </li>
-            <li>
-                <label class="body-text -mgClean">E-mail
-                    <input type="email" class="contact-input" title="Escreva seu e-mail!" name="user_email" required>
-                </label>
-            </li>
-            <li>
-                <label class="body-text -mgClean">Mensagem
-                    <textarea class="contact-input -msgInput" name="mensagem" required></textarea>
-                </label>
-            </li>
-            <li>
-                <button type="submit" class="main-button -sendButton">Enviar</button>
-            </li>
-        </ul>
-    </form>
+        <form class="contact-form" action="" method="post">
+            <ul>
+                <li>
+                    <label for="name" class="main-text -contact-label">Nome</label>
+                    <input id="name" type="text" class="contact-input" name="nome" required>
+                </li>
+                <li>
+                    <label for="email" class="main-text -contact-label">E-mail</label>
+                    <input id="email" type="email" class="contact-input" title="Escreva seu e-mail!" name="user_email" required>
+                    
+                </li>
+                <li>
+                    <label for="message" class="main-text -contact-label">Mensagem</label>
+                    <textarea id="message" class="contact-input -message" name="mensagem" required></textarea>
+                </li>
+                <li>
+                    <button type="submit" class="main-button -sendButton">Enviar</button>
+                </li>
+            </ul>
+        </form>
+    </section>
     <footer class="main-footer">
-        <a class="footer-logo fab fa-discord" href=""></a>
-        <a class="footer-logo fab fa-linkedin" href=""></a>
-        <a class="footer-logo fab fa-github-square" href=""></a>
+        <a class="footer-logo fab fa-linkedin" href="https://www.linkedin.com/in/danielacaus/" target="_blank"></a>
+        <a class="footer-logo fab fa-github-square" href="https://github.com/danicaus" target="_blank"></a>
     </footer>
     <script src="./scripts/main.js"></script>
 </body>
