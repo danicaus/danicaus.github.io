@@ -1,6 +1,5 @@
 .main-title {
-    color: var(--color-first);
-    text-shadow: 4px 4px 0px var(--color-black-first);
+    color: var(--color-third);
     font-family: 'Zen Dots', sans-serif;
     font-size: 50px;
 }
@@ -8,5 +7,4 @@
 .main-title.-second {
     text-align: center;
     color: var(--color-white-first);
-    text-shadow: none;
 }

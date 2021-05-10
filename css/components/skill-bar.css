@@ -7,5 +7,5 @@
 }
 
 .skill-bar::-webkit-progress-value, .skill-bar::-moz-progress-bar {
-        background-color: var(--color-first);
+        background-color: var(--color-third);
 }
