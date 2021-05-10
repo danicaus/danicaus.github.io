@@ -1,7 +1,7 @@
 .main-nav {
     display: inline-flex;
     align-items: center;
-    color:#FFFFFF;
+    color:var(--color-white-first);
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
@@ -13,7 +13,7 @@
     display:inline-block;
     width: 10px;
     height: 10px;
-    background-color:#D295D5;
+    background-color:var(--color-first);
     margin-right:10px;
 }
 

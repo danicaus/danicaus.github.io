@@ -3,23 +3,23 @@
     text-decoration: none;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    color:#FFF;
-    background-color:#D295D5;
+    color: var(--color-white-first);
+    background-color: var(--color-first);
     padding: 16px 20px;
     border-radius: 2px;
-    box-shadow: 5px 5px 2px #000000;
+    box-shadow: 5px 5px 2px var(--color-black-first);
     margin-right: 0;
     cursor: pointer;    
     transition: 50ms linear;
 }
 
 .main-button:hover {
-    background-color:#936995;
+    background-color: var(--color-first-darker);
     transform: scale(1.02);
 }
 
 .main-button:active {
-    box-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px var(--color-black-first);
     transform: translateY(3px) translateX(3px);
 }
 

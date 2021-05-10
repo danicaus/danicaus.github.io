@@ -8,6 +8,6 @@
 .timeline-border {
     width: 60px;
     height: 0px;
-    border: 5px dashed #000;
+    border: 5px dashed var(--color-black-first);
     box-sizing: border-box;
 }

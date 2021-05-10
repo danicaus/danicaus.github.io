@@ -1,12 +1,12 @@
 .main-title {
-    color: #D295D5;
-    text-shadow: 4px 4px 0px #000000;
+    color: var(--color-first);
+    text-shadow: 4px 4px 0px var(--color-black-first);
     font-family: 'Zen Dots', sans-serif;
     font-size: 50px;
 }
 
 .main-title.-second {
     text-align: center;
-    color: #FFFFFF;
+    color: var(--color-white-first);
     text-shadow: none;
 }

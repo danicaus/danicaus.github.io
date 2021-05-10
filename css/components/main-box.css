@@ -1,7 +1,7 @@
 .main-box {
     display: inline-block;
-    background-color: #3A4042;
-    box-shadow: 5px 5px #000000;
+    background-color: var(--color-second);
+    box-shadow: 5px 5px var(--color-black-first);
     text-align: center;
     padding: 42px 44px;
 }

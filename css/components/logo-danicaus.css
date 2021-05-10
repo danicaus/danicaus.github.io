@@ -1,6 +1,6 @@
 .logo-danicaus {
     font-family: 'Zen Dots', cursive;
-    color:#FFFFFF;
+    color: var(--color-white-first);
     font-size: 20px;
     height: 50px;
     width: 70px;
@@ -12,7 +12,7 @@
     padding: 0 3px;
     margin: 3px 0;
     transition: .4s ease-in-out;
-    text-shadow: 2px 2px 0px #000000;
+    text-shadow: 2px 2px 0px var(--color-black-first);
 }
 
 .logo-nome {

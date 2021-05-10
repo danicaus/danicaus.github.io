@@ -3,7 +3,7 @@
     font-weight: 300;
     line-height: 1.4;
     font-size: 30px;
-    color: #FFFFFF;
+    color: var(--color-white-first);
     font-family: 'Rubik', sans-serif;
     text-align: justify;
 }

@@ -5,8 +5,8 @@
     margin-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 5px solid #000000;
-    color: #000;
+    border: 5px solid var(--color-black-first);
+    color: var(--color-black-first);
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
     font-size: 25px;

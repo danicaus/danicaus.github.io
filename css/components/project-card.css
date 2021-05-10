@@ -1,5 +1,5 @@
 .project-card {
     max-width: 280px;
     max-height: 280px;
-    box-shadow: 10px 10px 0px #FFFFFF;
+    box-shadow: 10px 10px 0px var(--color-white-first);
 }
