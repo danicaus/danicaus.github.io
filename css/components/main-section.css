@@ -2,7 +2,7 @@
     background-color: var(--color-second);
     padding-top: 50px;
     padding-bottom: 100px;
-    border-bottom: 10px solid var(--color-first);
+    border-bottom: 10px double var(--color-first);
 }
 
 .main-section .main-title {

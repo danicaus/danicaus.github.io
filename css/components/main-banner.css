@@ -3,8 +3,9 @@
     background-image: url(../../assets/img/photos.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: var(--color-second);
     height: 800px;
-    border-bottom: 10px solid var(--color-first);
+    border-bottom: 10px double var(--color-first);
     padding-top: 115px;
     padding-left: 90px;
 }
