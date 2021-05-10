@@ -25,6 +25,14 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Rubik', sans-serif;
+	--color-first: #F6A8EF;
+	--color-second: #48576F;
+	--color-third: #344966;
+	--color-white-first: #FFFFFF;
+	--color-black-first: #000000;
+	--color-black-second: #3A4042;
+	--color-black-third: #828282;
 }
 ol, ul {
 	list-style: none;
@@ -44,8 +52,4 @@ table {
 
 button {
 	border:none;
-}
-
-body {
-	font-family: 'Rubik', sans-serif;
 }
