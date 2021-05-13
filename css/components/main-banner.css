@@ -1,19 +1,19 @@
 .main-banner {
     box-sizing: border-box;
-    background-image: url(../../assets/img/photos.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-color: var(--color-second);
-    height: 800px;
     border-bottom: 10px double var(--color-first);
-    padding-top: 115px;
-    padding-left: 90px;
+}
+
+.photo-danicaus{
+    width: 100%;
 }
 
 .main-banner .wrapper {
     display: flex;
+    position: absolute;
     flex-direction: column;
     width: 670px;
+    margin: 115px 90px;
 }
 
 .main-banner .main-box {
