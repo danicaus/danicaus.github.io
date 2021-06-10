@@ -36,12 +36,12 @@
 
 .timeline-arrow-right {
     transform: rotate(180deg);
-    opacity: 0;
+    opacity: 1;
     transition: transform .1s cubic-bezier(.5,0,.1,1) 0s;
 }
 
 .timeline-arrow-left {
-    opacity: 0;
+    opacity: 1;
     transition: transform .1s cubic-bezier(.5,0,.1,1) 0s;
 }
 
@@ -55,4 +55,10 @@
 
 .timeline-wrapper:hover .timeline-arrow-right, .timeline-wrapper:hover .timeline-arrow-left{
     opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+    .timeline-arrow-right, .timeline-arrow-left {
+        opacity: 0;
+    }
 }
