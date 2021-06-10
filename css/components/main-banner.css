@@ -2,18 +2,18 @@
     box-sizing: border-box;
     background-color: var(--color-second);
     border-bottom: 10px double var(--color-first);
-}
-
-.photo-danicaus{
-    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/img/me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    padding: 8%;
 }
 
 .main-banner .wrapper {
     display: flex;
-    position: absolute;
     flex-direction: column;
-    width: 670px;
-    margin: 115px 90px;
 }
 
 .main-banner .main-box {
