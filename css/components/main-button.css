@@ -1,9 +1,10 @@
 .main-button {
     display:inline-block;
     text-decoration: none;
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-body);
     font-size: 20px;
-    color: var(--color-white-first);
+    font-weight: 500;
+    color: var(--color-second);
     background-color: var(--color-first);
     padding: 16px 20px;
     border-radius: 2px;

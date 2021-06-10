@@ -1,6 +1,7 @@
 .timeline-year {
-    color: var(--color-white-first);
-    font-family: 'Zen Dots', sans-serif;
-    font-size: 25px;
+    color: var(--color-third);
+    font-family: var(--font-title);
+    font-size: 50px;
+    font-weight: 700;
     margin-bottom: 10px;
 }

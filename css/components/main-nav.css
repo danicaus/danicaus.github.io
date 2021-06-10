@@ -3,18 +3,19 @@
     align-items: center;
     color:var(--color-white-first);
     font-size: 20px;
-    font-family: 'Rubik', sans-serif;
+    font-family: var(--font-body);
+    font-weight: 500;
     text-decoration: none;
     margin-right: 30px;    
 }
 
 .main-nav::before {
     content:"";
-    display:inline-block;
+    display: inline-block;
     width: 10px;
     height: 10px;
-    background-color:var(--color-first);
-    margin-right:10px;
+    background-color: var(--color-first);
+    margin-right: 10px;
 }
 
 .main-nav:hover {

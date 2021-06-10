@@ -1,6 +1,7 @@
 .skill-title {
     color: var(--color-white-first);
-    font-family: 'Zen Dots', sans-serif;
+    font-family: var(--font-body);
+    font-weight: 400;
     font-size: 25px;
     display: inline;
 }
