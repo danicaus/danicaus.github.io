@@ -44,8 +44,3 @@
     flex-direction: column;
     justify-content: space-around;
 }
-
-.wrapper-cards {
-    display: flex;
-    justify-content: space-around;
-}
