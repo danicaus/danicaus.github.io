@@ -22,6 +22,10 @@
     position: absolute;
 }
 
+.timeline-corner {
+    top: 25px;
+}
+
 .timeline-wrapper .timeline-corner.-left {
     left: 0px;
 }
