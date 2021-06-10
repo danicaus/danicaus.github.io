@@ -1,9 +1,10 @@
 .skill-logo {
-    display:flex;
+    display: flex;
     justify-content: center;
-    font-size:90px;
-    color:var(--color-third);
-    padding-right:20px;
-    width:90px;
-    height:90px;
+    align-items: center;
+    font-size: 5rem;
+    color:var(--color-first);
+    padding-right: 20px;
+    width: 5rem;
+    height: 5rem;
 }
