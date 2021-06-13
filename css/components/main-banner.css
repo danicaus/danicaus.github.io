@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background-color: var(--color-second);
     border-bottom: 10px double var(--color-first);
-    height: 100vh;
+    height: calc(100vh - 5rem);
     background-image: url(../../assets/img/me.jpg);
     background-size: cover;
     background-repeat: no-repeat;

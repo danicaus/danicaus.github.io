@@ -3,7 +3,7 @@
     background-color: var(--color-second);
     box-shadow: 5px 5px var(--color-black-first);
     text-align: center;
-    padding: 42px 44px;
+    padding: 3rem 8rem;
 }
 
 .main-box .main-title {
