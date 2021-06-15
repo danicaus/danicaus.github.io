@@ -9,10 +9,17 @@
     border-bottom: 10px solid var(--color-black-first);
 }
 
+.main-name {
+    color:var(--color-white-first);
+    font-size: 20px;
+    font-family: var(--font-body);
+    font-weight: 500;
+}
+
 @media screen and (min-width: 1024px) {
     .main-header {
         flex-direction: row;
-        justify-content: end;
+        justify-content: space-between;
         align-items: center;
     }
 }
