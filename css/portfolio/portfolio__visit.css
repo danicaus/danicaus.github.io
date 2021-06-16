@@ -1,0 +1,5 @@
+.portfolio__visit {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}

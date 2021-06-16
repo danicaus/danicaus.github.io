@@ -1,0 +1,42 @@
+.portfolio__text h2 {
+    font-family: var(--font-title);
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-first);
+    
+    letter-spacing: 1.4px;
+
+    margin-top: 3rem;
+}
+
+.portfolio__text p, .portfolio__text li {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+
+    line-height: 1.4;
+}
+
+.portfolio__text ul {
+    padding: 0 1.5rem;
+
+    box-sizing: border-box;
+
+    list-style: square;
+}
+
+.portfolio__text hr {
+    display: block;
+    position: relative;
+
+    background-color: var(--color-white-first);
+    
+    width: 50%;
+    
+    margin: 0.5rem 0 1rem;
+}
+
+.portfolio__text a, .portfolio__text a:visited {
+    text-decoration: none;
+    color: var(--color-white-first);
+    font-weight: 550;
+}

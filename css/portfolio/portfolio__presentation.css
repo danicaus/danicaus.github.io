@@ -1,0 +1,13 @@
+.portfolio__presentation h1 {
+    font-family: var(--font-title);
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--color-first);
+    margin-bottom: 1rem;
+}
+
+.portfolio__presentation h3 {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    color: var(--color-white-first);
+}
