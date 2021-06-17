@@ -1,0 +1,58 @@
+.window-top {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    position: relative;
+    
+    width: 100%;
+    height: 25px; 
+    background-color: var(--color-white-first);
+}
+
+.window-top > i:first-child {
+    width: 10px;
+    height: 10px;
+
+    margin-right: 20px;
+
+    border: solid 1px black;
+}
+
+.window-top > i:nth-child(2) {
+    width: 10px;
+
+    position: absolute;
+    top: 50%;
+    right: 65px;
+
+    border-top: solid 1px black;
+}
+
+.window-top > i:last-child {
+    height: 12px;
+    width: 12px;
+
+    margin-right: 5px;
+
+    position: relative;
+}
+
+.window-top > i:last-child::before, .window-top > i:last-child::after {
+    content: " ";
+
+    position: absolute;
+
+    height: 100%;
+    width: 0.5px;
+    background-color: black;
+
+}
+
+.window-top > i:last-child::before {
+    transform: rotate(45deg);
+}
+
+.window-top > i:last-child::after {
+    transform: rotate(-45deg);
+}
