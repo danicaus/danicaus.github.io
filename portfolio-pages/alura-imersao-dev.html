@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="../css/portfolio/portfolio__visit.css">
     <link rel="stylesheet" href="../css/components/main-button.css">
     <link rel="stylesheet" href="../css/portfolio/portfolio__text.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/carousel.css">
+    <script src="https://kit.fontawesome.com/969950d683.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/components/main-footer.css">
     
 </head>
 
@@ -28,8 +31,31 @@
             </div>
         </div>
         <div class="carousel">
-                <div></div>
-                <div></div>
+            <div></div>
+            <nav>
+                <button class="carousel__botao carousel__botao--anterior" data-anterior aria-label="Botão de voltar">
+                    <em class="botao__arrow"></em>
+                </button>
+                <button class="carousel__botao carousel__botao--proximo" data-proximo aria-label="Botão de avançar">
+                    <em class="botao__arrow"></em>
+                </button>
+            </nav>
+            <ul class="carousel__lista-slides" data-lista-slides>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pagina-mentalista.png" alt="" class="carousel__imagem">
+                </li>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pagina-aluraflix.png" alt="" class="carousel__imagem">
+                </li>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pagina-aluratrunfo.png" alt="" class="carousel__imagem">
+                </li>
+            </ul>
+            <div class="carousel__indicadores" data-navegacao>
+                <button class="carousel__indicador carousel__indicador--ativo" aria-label="Slide 1" data-indicador="0"></button>
+                <button class="carousel__indicador" aria-label="Slide 2" data-indicador="1"></button>
+                <button class="carousel__indicador" aria-label="Slide 3" data-indicador="2"></button>
+            </div>
         </div>
         <div class="portfolio__text">
             <h2>Sobre o projeto</h2>
@@ -51,6 +77,15 @@
             </ul>
         </div>
     </main>
+    <footer class="main-footer">
+        <p>Entre em contato comigo:</p>
+        <div>
+            <a class="footer-logo fab fa-linkedin" href="https://www.linkedin.com/in/danielacaus/" target="_blank"></a>
+            <a class="footer-logo fab fa-github-square" href="https://github.com/danicaus" target="_blank"></a>
+            <a class="footer-logo fas fa-envelope-square" href="mailto:danicaus.br@gmail.com" target="_blank"></a>
+        </div>
+    </footer>
+    <script type="module" src="../scripts/main.js"></script>
 
 </body>
 
