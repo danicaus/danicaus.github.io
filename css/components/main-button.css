@@ -23,9 +23,3 @@
     box-shadow: 2px 2px var(--color-black-first);
     transform: translateY(3px) translateX(3px);
 }
-
-.main-button.-sendButton {
-    width: 100%;
-    font-size: 30px;
-    margin-top: 140px;
-}
