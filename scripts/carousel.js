@@ -38,7 +38,7 @@ export class Carousel {
         return this.indicadores[this.indiceDoSlideAtual]
     }
 
-    proximoSlide(){
+    proximoSlide(event){
         let proximaPosicao = this.indiceDoSlideAtual + 1
         
         if(proximaPosicao > this.slides.length - 1){
@@ -46,14 +46,24 @@ export class Carousel {
         }
         
         this.vaParaSlide(proximaPosicao)
+        event.target.classList.add('carousel__botao--active')
+        this.resetArrow(event)
     }
     
-    slideAnterior(){
+    slideAnterior(event){
         let posicaoAnterior = this.indiceDoSlideAtual - 1
         if(posicaoAnterior < 0){
             posicaoAnterior = this.slides.length - 1
         }
         this.vaParaSlide(posicaoAnterior)
+        event.target.classList.add('carousel__botao--active')
+        this.resetArrow(event)
+    }
+
+    resetArrow(event) {
+        const botao = event.target
+        const tiraActive = (function inativo() {this.classList.remove('carousel__botao--active')}).bind(botao)
+        setTimeout(tiraActive, 1000)
     }
 
     vaParaSlide(posicao) {

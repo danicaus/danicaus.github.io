@@ -13,12 +13,32 @@
 
     cursor: pointer;
 
-    transition: transform 0.15s ease-out 0s;
+    transition: opacity 0.15s ease-out 0s;
 }
 
 .carousel__botao--proximo{
     transform: rotate(180deg);
     right: 0;
+}
+
+.carousel__botao--anterior.carousel__botao--active .botao__arrow::before, 
+.carousel__botao--anterior.carousel__botao--active .botao__arrow::after,
+.carousel__botao--anterior:hover.carousel__botao--active .botao__arrow::before, 
+.carousel__botao--anterior:hover.carousel__botao--active .botao__arrow::after  {
+    transform: rotate(90deg) scale(0.75);
+}
+.carousel__botao--anterior.carousel__botao--active .botao__arrow {
+    transform: translateX(-55px); 
+}
+
+.carousel__botao--proximo.carousel__botao--active .botao__arrow::before, 
+.carousel__botao--proximo.carousel__botao--active .botao__arrow::after,
+.carousel__botao--proximo:hover.carousel__botao--active .botao__arrow::before, 
+.carousel__botao--proximo:hover.carousel__botao--active .botao__arrow::after {
+    transform: rotate(90deg) scale(0.75);
+}
+.carousel__botao--proximo.carousel__botao--active .botao__arrow {
+    transform: translateX(-55px); 
 }
 
 .botao__arrow {
@@ -47,7 +67,7 @@
     background-color: var(--color-white-first);
     opacity: 0.75;
 
-    transition: transform 0.15s ease-out 0s;
+    transition: transform 0.1s ease-out 0s;
 }
 
 .botao__arrow::before {
