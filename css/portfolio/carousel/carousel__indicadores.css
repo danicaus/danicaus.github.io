@@ -1,0 +1,22 @@
+.carousel__indicadores {
+    position: absolute;
+    bottom: 3%;
+    left: calc(50% - 55px);
+}
+
+.carousel__indicador {
+    height: 2px;
+    width: 30px;
+    background-color: var(--color-white-first);
+    opacity: 0.3;
+
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+.carousel__indicador--ativo {
+    opacity: .75;
+
+    height: 3px;
+}
