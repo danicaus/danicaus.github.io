@@ -1,4 +1,4 @@
-.main-box {
+.banner__presentation {
     display: inline-block;
     background-color: var(--color-second);
     box-shadow: 5px 5px var(--color-black-first);
@@ -6,6 +6,6 @@
     padding: 3rem 8rem;
 }
 
-.main-box .main-title {
+.banner__presentation .main-title {
     margin-bottom: 28px;
 }

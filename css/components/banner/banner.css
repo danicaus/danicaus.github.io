@@ -1,9 +1,9 @@
-.main-banner {
+.banner {
     box-sizing: border-box;
     background-color: var(--color-second);
     border-bottom: 10px double var(--color-first);
     height: calc(100vh - 5rem);
-    background-image: url(../../assets/img/me.jpg);
+    background-image: url(../../../assets/img/me.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -11,16 +11,16 @@
     padding: 8%;
 }
 
-.main-banner .wrapper {
+.banner .banner__wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.main-banner .main-box {
+.banner .banner__presentation {
     margin-bottom: 40px;
 }
 
-.main-banner .navigation {
+.banner .button__wrapper {
     display: flex;
     justify-content: space-around;
 }

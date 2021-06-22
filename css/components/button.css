@@ -1,4 +1,4 @@
-.main-button {
+.button {
     display:inline-block;
     text-decoration: none;
     font-family: var(--font-body);
@@ -14,12 +14,12 @@
     transition: 50ms linear;
 }
 
-.main-button:hover {
+.button:hover {
     background-color: var(--color-first-darker);
     transform: scale(1.02);
 }
 
-.main-button:active {
+.button:active {
     box-shadow: 2px 2px var(--color-black-first);
     transform: translateY(3px) translateX(3px);
 }
