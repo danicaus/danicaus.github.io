@@ -1,10 +1,10 @@
-.main-header > nav {
+.header > nav {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main-nav {
+.header__link {
     display: inline-flex;
     align-items: center;
     color:var(--color-white-first);
@@ -15,21 +15,21 @@
     padding: 0.8rem 0;  
 }
 
-.main-nav:hover {
+.header__link:hover {
     text-decoration: underline;
 }
 
 @media screen and (min-width: 1024px) {
-    .main-header > nav {
+    .header > nav {
         display: block;
     }
     
-    .main-nav {
+    .header__link {
         display: inline-flex;
         margin-right: 30px;  
     }
     
-    .main-nav::before {
+    .header__link::before {
     content:"";
     display: inline-block;
     width: 10px;
