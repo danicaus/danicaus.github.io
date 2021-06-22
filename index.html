@@ -33,11 +33,12 @@
     <link rel="stylesheet" href="/css/components/contact-input.css">
     <link rel="stylesheet" href="/css/components/main-footer.css">
     <link rel="stylesheet" href="/css/components/contact-form.css">
+    <link rel="stylesheet" href="/css/portfolio/carousel/carousel__indicadores.css">
     
 </head>
 <body>
     <header class="main-header">
-        <a class="main-name" href="#">Daniela Caus</a>
+        <a class="main-name" href="https://danicaus.github.io/">Daniela Caus</a>
         <nav>
             <a class="main-nav" href="#home" lang="en">Home</a>
             <a class="main-nav" href="#projetos">Projetos</a>
@@ -58,38 +59,38 @@
         </section>
         <section class="main-section"><a name="projetos"></a>
             <h1 class="main-title -second">Projetos</h1>
-            <div class="wrapper-cards">
-                <figure class="project-card">
+            <ul class="wrapper-cards">
+                <li class="project-card">
                     <a href="https://danicaus.github.io/Mentalista-ImersaoDevAlura/" target="_blank">
                         <img class="portfolio-img" src="/assets/img/Logo Mentalista.png" alt="Jogo Mentalista">
                     </a>
-                </figure>
-                <figure class="project-card">
+                </li>
+                <li class="project-card">
                     <a href="https://danicaus.github.io/AluraFlix-ImersaoDevAlura/" target="_blank">
                         <img class="portfolio-img" src="/assets/img/Logo Aluraflix.png" alt="Página AluraFlix">
                     </a>
-                </figure>
-                <figure class="project-card">    
+                </li>
+                <li class="project-card">    
                     <a href="https://danicaus.github.io/Super-Trunfo-ImersaoDevAlura/" target="_blank">
                         <img class="portfolio-img" src="/assets/img/Logo AluraTrunfo.png" alt="Jogo SuperTrunfo">
                     </a>
-                </figure>
-                <figure class="project-card">    
+                </li>
+                <li class="project-card">    
                     <a href="https://danicaus.github.io/barbearia-alura/" target="_blank">
                         <img class="portfolio-img" src="assets/img/Logo Barbearia Alura.png" alt="Página Barbearia Alura">
                     </a>
-                </figure>
-                <figure class="project-card">    
+                </li>
+                <li class="project-card">    
                     <a href="https://danicaus.github.io/apeperia-alura/" target="_blank">
                         <img class="portfolio-img" src="assets/img/Logo-Apeperia.png" alt="Página Apeperia">
                     </a>
-                </figure>
-                <figure class="project-card">    
+                </li>
+                <li class="project-card">    
                     <a href="https://danicaus.github.io/alura-desafio-frontend/" target="_blank">
                         <img class="portfolio-img" src="assets/img/Desafio-frontend-Alura.png" alt="Desafio FrontEnd Alura">
                     </a>
-                </figure>
-            </div>
+                </li>
+            </ul>
         </section>
         <section class="main-section --padding-timeline"><a name="historico"></a>
             <h1 class="main-title -second">Histórico profissional</h1>
@@ -98,7 +99,7 @@
                     <div class="timeline-line">
                         <div class="timeline-border"></div>
                     </div>
-                    <button class="timeline-button -btPrevious">
+                    <button class="timeline-button -btPrevious" data-anterior>
                         <img class="timeline-arrow-left" src="assets/img/timeline-arrow.png">
                     </button>
                 </div>
@@ -106,11 +107,11 @@
                     <div class="timeline-line">
                         <div class="timeline-border"></div>
                     </div>
-                    <button class="timeline-button -btNext">
+                    <button class="timeline-button -btNext" data-proximo>
                         <img class="timeline-arrow-right" src="assets/img/timeline-arrow.png">
                     </button>
                 </div>
-                <div class="timeline-slider">
+                <div class="timeline-slider" data-lista-slides>
                     <div class="timeline-companies">
                         <h3 class="timeline-year">2008</h3>
                         <div class="timeline-vertical-line"></div>
@@ -166,6 +167,11 @@
                         <div class="timeline-vertical-line"></div>
                         <img class="timeline-logo" src="./assets/img/timeline-logo-pagarme.png" alt="Logo do Pagarme">
                     </div>
+                </div>
+                <div class="carousel__indicadores" data-navegacao>
+                    <button class="carousel__indicador carousel__indicador--ativo" aria-label="Slide 1" data-indicador="0"></button>
+                    <button class="carousel__indicador" aria-label="Slide 2" data-indicador="1"></button>
+                    <button class="carousel__indicador" aria-label="Slide 3" data-indicador="2"></button>
                 </div>
             </div>
             <p class="main-text">
