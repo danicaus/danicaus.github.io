@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Daniela Caus - Desafio FrontEnd Alura</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__wrapper.css">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__presentation.css">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__visit.css">
+    <link rel="stylesheet" href="../css/components/main-button.css">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__text.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/carousel.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/window-top.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/carousel__botao.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/carousel__indicadores.css">
+    <script src="https://kit.fontawesome.com/969950d683.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/components/main-footer.css">
+    
+</head>
+
+<body>
+    <main class="portfolio__wrapper">
+        <div class="portfolio__presentation">
+            <h1>Desafio FrontEnd Alura</h1>
+            <h3>Projeto para aplicação de highlight em códigos das linguagens HTLM, CSS e JavaScript, bem como salvar os códigos no LocalStorage</h3>
+            <div class="portfolio__visit">
+                <a class="main-button" href="https://danicaus.github.io/alura-desafio-frontend/" target="_blank">Visitar página</a>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="window-top">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <nav>
+                <button class="carousel__botao carousel__botao--anterior" data-anterior aria-label="Botão de voltar">
+                    <em class="botao__arrow"></em>
+                </button>
+                <button class="carousel__botao carousel__botao--proximo" data-proximo aria-label="Botão de avançar">
+                    <em class="botao__arrow"></em>
+                </button>
+            </nav>
+            <ul class="carousel__lista-slides" data-lista-slides>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pages/desafio-frontend-alura/editor.jpg" alt="" class="carousel__imagem">
+                </li>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pages/desafio-frontend-alura/comunidade.jpg" alt="" class="carousel__imagem">
+                </li>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pages/desafio-frontend-alura/responsivo-tablet.jpg" alt="" class="carousel__imagem">
+                </li>
+            </ul>
+            <div class="carousel__indicadores" data-navegacao>
+                <button class="carousel__indicador carousel__indicador--ativo" aria-label="Slide 1" data-indicador="0"></button>
+                <button class="carousel__indicador" aria-label="Slide 2" data-indicador="1"></button>
+                <button class="carousel__indicador" aria-label="Slide 3" data-indicador="2"></button>
+            </div>
+        </div>
+        <div class="portfolio__text">
+            <h2>Sobre o projeto</h2>
+            <hr>
+            <p>Evento gratuito da Alura, com o desafio de montar uma página a partir de um layout. O evento simulava um ambiente real de trabalho, onde os desenvolvedores deveriam usar suas habilidades para atender o que foi pedido. O objetivo da aplicação era aplicar o highlight em um trecho de código, aplicar uma borda colorida de acordo com o configurado pelo usuário, armazenar essas informações e mostrá-las para o usuário em uma outra página. O armazenamento escolhido foi o LocalStorage, foi necessário usar a <a href="https://highlightjs.org/" target="_blank">biblioteca do Highlight JS.</a></p>
+            <h2>Tecnologias utilizadas</h2>
+            <hr>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Uso de biblioteca Highlight JS</li>
+                <li>Uso de LocalStorage</li>
+                <li>Interpretação de layout Figma</li>
+            </ul>
+            <h2>Repositório</h2>
+            <hr>
+            <ul>
+                <li><a href="https://github.com/danicaus/alura-desafio-frontend">Github</a> | <a href="https://danicaus.github.io/alura-desafio-frontend/">Página</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <p>Entre em contato comigo:</p>
+        <div>
+            <a class="footer-logo fab fa-linkedin" href="https://www.linkedin.com/in/danielacaus/" target="_blank"></a>
+            <a class="footer-logo fab fa-github-square" href="https://github.com/danicaus" target="_blank"></a>
+            <a class="footer-logo fas fa-envelope-square" href="mailto:danicaus.br@gmail.com" target="_blank"></a>
+        </div>
+    </footer>
+    <script type="module" src="../scripts/main.js"></script>
+
+</body>
+
+</html>
