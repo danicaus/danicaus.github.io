@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Daniela Caus - HTML e CSS Feliz</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__wrapper.css">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__presentation.css">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__visit.css">
+    <link rel="stylesheet" href="../css/components/main-button.css">
+    <link rel="stylesheet" href="../css/portfolio/portfolio__text.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/carousel.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/window-top.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/carousel__botao.css">
+    <link rel="stylesheet" href="../css/portfolio/carousel/carousel__indicadores.css">
+    <script src="https://kit.fontawesome.com/969950d683.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/components/main-footer.css">
+    
+</head>
+
+<body>
+    <main class="portfolio__wrapper">
+        <div class="portfolio__presentation">
+            <h1>HTML e CSS Feliz</h1>
+            <h3>Página de portfolio desenvolvida a partir de design no Figma</h3>
+            <div class="portfolio__visit">
+                <a class="main-button" href="https://danicaus.github.io/" target="_blank">Visitar página</a>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="window-top">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <nav>
+                <button class="carousel__botao carousel__botao--anterior" data-anterior aria-label="Botão de voltar">
+                    <em class="botao__arrow"></em>
+                </button>
+                <button class="carousel__botao carousel__botao--proximo" data-proximo aria-label="Botão de avançar">
+                    <em class="botao__arrow"></em>
+                </button>
+            </nav>
+            <ul class="carousel__lista-slides" data-lista-slides>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pages/html-e-css-feliz/portfolio-banner.jpg" alt="" class="carousel__imagem">
+                </li>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pages/html-e-css-feliz/portfolio-projects.jpg" alt="" class="carousel__imagem">
+                </li>
+                <li class="carousel__slide">
+                    <img src="../assets/img/pages/html-e-css-feliz/portfolio-historic.jpg" alt="" class="carousel__imagem">
+                </li>
+            </ul>
+            <div class="carousel__indicadores" data-navegacao>
+                <button class="carousel__indicador carousel__indicador--ativo" aria-label="Slide 1" data-indicador="0"></button>
+                <button class="carousel__indicador" aria-label="Slide 2" data-indicador="1"></button>
+                <button class="carousel__indicador" aria-label="Slide 3" data-indicador="2"></button>
+            </div>
+        </div>
+        <div class="portfolio__text">
+            <h2>Sobre o projeto</h2>
+            <hr>
+            <p>Primeiro contato mais profundo com HTML e CSS. O curso te desafia a buscar conhecimento sozinho para depois ensinar. Me permitiu interpretar códigos HTML de grandes páginas e outros desenvolvedores, bem como ler artigos e documentações. Aprendizados como display flex e grid, carousel, variáveis CSS, webkits e muitos outros. Super recomendo o <a href="https://www.firedlabs.com/">curso </a>do <a href="https://github.com/marcobrunodev"> Marco Bruno!</a></p>
+            <h2>Tecnologias utilizadas</h2>
+            <hr>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Interpretação de página de design no Figma</li>
+            </ul>
+            <h2>Repositório</h2>
+            <hr>
+            <ul>
+                <li><a href="https://github.com/danicaus/danicaus.github.io">Github</a> | <a href="https://danicaus.github.io/">Página</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <p>Entre em contato comigo:</p>
+        <div>
+            <a class="footer-logo fab fa-linkedin" href="https://www.linkedin.com/in/danielacaus/" target="_blank"></a>
+            <a class="footer-logo fab fa-github-square" href="https://github.com/danicaus" target="_blank"></a>
+            <a class="footer-logo fas fa-envelope-square" href="mailto:danicaus.br@gmail.com" target="_blank"></a>
+        </div>
+    </footer>
+    <script type="module" src="../scripts/main.js"></script>
+
+</body>
+
+</html>
