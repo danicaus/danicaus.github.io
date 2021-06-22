@@ -1,18 +1,18 @@
-.project-card {
-    max-width: 280px;
-    max-height: 280px;
-    box-shadow: 10px 10px 0px var(--color-third);
-    margin-right: 30px;
+.project__card {
+    height: 2.8rem;
+    width: 3rem;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.6);
+    margin-right: 3rem;
 }
 
 
-.wrapper-cards {
+.projects__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: -100px;
+    margin-top: -10rem;
 }
 
-.wrapper-cards > * {
-    margin-top: 100px;
+.projects__wrapper > li {
+    margin-top: 10rem;
 }
