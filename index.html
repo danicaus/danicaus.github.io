@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <title>Portfolio Daniela Caus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/reset.css">
+    <script src="https://kit.fontawesome.com/969950d683.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/components/header/header.css">
     <link rel="stylesheet" href="/css/components/header/header__logo.css">
     <link rel="stylesheet" href="/css/components/header/header__link.css">
     <link rel="stylesheet" href="/css/components/button.css">
     <link rel="stylesheet" href="/css/components/banner/banner.css">
-    <link rel="stylesheet" href="/css/components/main-title.css">
+    <link rel="stylesheet" href="/css/components/title.css">
     <link rel="stylesheet" href="/css/components/banner/presentation__subtitle.css">
     <link rel="stylesheet" href="/css/components/banner/banner__presentation.css">
-    <link rel="stylesheet" href="/css/components/main-section.css">
-    <script src="https://kit.fontawesome.com/969950d683.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/components/section.css">
     <link rel="stylesheet" href="/css/components/project-card.css">
     <link rel="stylesheet" href="/css/components/main-text.css">
     <link rel="stylesheet" href="/css/components/timeline-wrapper.css">
@@ -41,19 +41,19 @@
         </nav>
     </header>
     <main>
-    <section class="banner"><a name="home"></a>
-        <div class="banner__wrapper">
-            <div class="banner__presentation">
-                <h2 class="main-title">Oi, eu sou a Dani!</h2>
-                <h3 class="presentation__subtitle">FrontEnd Developer</h3>
+        <section class="banner" id="home">
+            <div class="banner__wrapper">
+                <div class="banner__presentation">
+                    <h2 class="title">Oi, eu sou a Dani!</h2>
+                    <h3 class="presentation__subtitle">FrontEnd Developer</h3>
+                </div>
+                <div class="button__wrapper">
+                    <a class="button" href="assets/files/Currículo Daniela Caus 202106.pdf" download="CurriculoDanielaCaus.pdf" lang="en">Download CV</a>
+                </div>
             </div>
-            <div class="button__wrapper">
-                <a class="button" href="assets/files/Currículo Daniela Caus 202106.pdf" download="CurriculoDanielaCaus.pdf" lang="en">Download CV</a>
-            </div>
-        </div>
-    </section>
-        <section class="main-section"><a name="projetos"></a>
-            <h2 class="main-title -second">Projetos</h2>
+        </section>
+        <section class="section" id="projetos">
+            <h2 class="title title--second">Projetos</h2>
             <ul class="wrapper-cards">
                 <li class="project-card">
                     <a href="https://danicaus.github.io/Mentalista-ImersaoDevAlura/" target="_blank">
@@ -87,8 +87,8 @@
                 </li>
             </ul>
         </section>
-        <section class="main-section --padding-timeline"><a name="historico"></a>
-            <h2 class="main-title -second">Histórico profissional</h2>
+        <section class="section section--padding-timeline" id="historico">
+            <h2 class="title title--second">Histórico profissional</h2>
             <div class="timeline-wrapper">
                 <div class="timeline-corner -left">
                     <div class="timeline-line">

@@ -5,7 +5,7 @@
     font-size: 80px;
 }
 
-.title.-second {
+.title.title--second {
     text-align: center;
     color: var(--color-white-first);
 }

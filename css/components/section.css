@@ -1,14 +1,14 @@
-.main-section {
+.section {
     background-color: var(--color-second);
     padding: 5rem 10% 10rem 10%;
     border-bottom: 10px double var(--color-first);
 }
 
-.main-section .main-title {
+.section .title {
     margin-bottom: 5rem;
 }
 
-.main-section.--padding-timeline {
+.section.section--padding-timeline {
     padding-left: 0;
     padding-right: 0;
 }
