@@ -1,11 +1,11 @@
-.main-title {
+.title {
     color: var(--color-third);
     font-family: var(--font-title);
     font-weight: 700;
     font-size: 80px;
 }
 
-.main-title.-second {
+.title.-second {
     text-align: center;
     color: var(--color-white-first);
 }
