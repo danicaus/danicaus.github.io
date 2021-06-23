@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Daniela Caus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/969950d683.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/components/header/header.css">
@@ -18,7 +21,7 @@
     <link rel="stylesheet" href="/css/components/banner/presentation__subtitle.css">
     <link rel="stylesheet" href="/css/components/banner/banner__presentation.css">
     <link rel="stylesheet" href="/css/components/section.css">
-    <link rel="stylesheet" href="/css/components/project-card.css">
+    <link rel="stylesheet" href="/css/components/project.css">
     <link rel="stylesheet" href="/css/components/main-text.css">
     <link rel="stylesheet" href="/css/components/timeline-wrapper.css">
     <link rel="stylesheet" href="/css/components/timeline-logo.css">
@@ -29,8 +32,10 @@
     <link rel="stylesheet" href="/css/components/timeline-companies.css">
     <link rel="stylesheet" href="/css/components/footer.css">
     <link rel="stylesheet" href="/css/portfolio/carousel/carousel__indicadores.css">
-    
+    <link rel="stylesheet" href="/css/portfolio/carousel/window-top.css">
+
 </head>
+
 <body>
     <header class="header">
         <a class="header__logo" href="https://danicaus.github.io/">Daniela Caus</a>
@@ -48,41 +53,87 @@
                     <h3 class="presentation__subtitle">FrontEnd Developer</h3>
                 </div>
                 <div class="button__wrapper">
-                    <a class="button" href="assets/files/Currículo Daniela Caus 202106.pdf" download="CurriculoDanielaCaus.pdf" lang="en">Download CV</a>
+                    <a class="button" href="assets/files/Currículo Daniela Caus 202106.pdf"
+                        download="CurriculoDanielaCaus.pdf" lang="en">Download CV</a>
                 </div>
             </div>
         </section>
         <section class="section" id="projects">
             <h2 class="title title--second">Projetos</h2>
             <ul class="projects__wrapper">
-                <li class="project__card">
-                    <a href="https://danicaus.github.io/Mentalista-ImersaoDevAlura/" target="_blank">
-                        <img class="project__img" src="/assets/img/Logo Mentalista.png" alt="Jogo Mentalista">
+                <li class="project">
+                    <a href="portfolio-pages/alura-imersao-dev.html" target="_blank">
+                        <div class="window-top">
+                            <h2>Imersão Dev Alura</h2>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <div class="project__img">
+                            <img class="project__bg-up" src="assets/img/pages/imersao-dev/pagina-mentalista.png" alt="Página do Mentalista">
+                            <div class="project__shaddow"></div>
+                            <img class="project__bg-base" src="assets/img/pages/imersao-dev/pagina-mentalista.png" alt="Página do Mentalista">
+                        </div>
                     </a>
                 </li>
-                <li class="project__card">
-                    <a href="https://danicaus.github.io/AluraFlix-ImersaoDevAlura/" target="_blank">
-                        <img class="project__img" src="/assets/img/Logo Aluraflix.png" alt="Página AluraFlix">
+                <li class="project">
+                    <a href="portfolio-pages/html-e-css-feliz.html" target="_blank">
+                        <div class="window-top">
+                            <h2>Curso HTML e CSS Feliz</h2>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <div class="project__img">
+                            <img class="project__bg-up" src="assets/img/pages/imersao-dev/pagina-mentalista.png" alt="Página do Mentalista">
+                            <div class="project__shaddow"></div>
+                            <img class="project__bg-base" src="assets/img/pages/html-e-css-feliz/portfolio-banner.jpg" alt="Página do Mentalista">
+                        </div>
                     </a>
                 </li>
-                <li class="project__card">    
-                    <a href="https://danicaus.github.io/Super-Trunfo-ImersaoDevAlura/" target="_blank">
-                        <img class="project__img" src="/assets/img/Logo AluraTrunfo.png" alt="Jogo SuperTrunfo">
+                <li class="project">
+                    <a href="portfolio-pages/alura-barbearia.html" target="_blank">
+                        <div class="window-top">
+                            <h2>Barbearia Alura</h2>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <div class="project__img">
+                            <img class="project__bg-up" src="/assets/img/Logo Aluraflix.png" alt="Página AluraFlix">
+                            <div class="project__shaddow"></div>
+                            <img class="project__bg-base" src="/assets/img/pages/barbearia-alura/home.jpg" alt="Página AluraFlix">
+                        </div>
                     </a>
                 </li>
-                <li class="project__card">    
-                    <a href="https://danicaus.github.io/barbearia-alura/" target="_blank">
-                        <img class="project__img" src="assets/img/Logo Barbearia Alura.png" alt="Página Barbearia Alura">
+                <li class="project">
+                    <a href="portfolio-pages/alura-apeperia.html" target="_blank">
+                        <div class="window-top">
+                            <h2>Apeperia</h2>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <div class="project__img">
+                            <img class="project__bg-up" src="/assets/img/Logo AluraTrunfo.png" alt="Jogo SuperTrunfo">
+                            <div class="project__shaddow"></div>
+                            <img class="project__bg-base" src="/assets/img/pages/apeperia/banner.jpg" alt="Jogo SuperTrunfo">
+                        </div>
                     </a>
                 </li>
-                <li class="project__card">    
-                    <a href="https://danicaus.github.io/apeperia-alura/" target="_blank">
-                        <img class="project__img" src="assets/img/Logo-Apeperia.png" alt="Página Apeperia">
-                    </a>
-                </li>
-                <li class="project__card">    
-                    <a href="https://danicaus.github.io/alura-desafio-frontend/" target="_blank">
-                        <img class="project__img" src="assets/img/Desafio-frontend-Alura.png" alt="Desafio FrontEnd Alura">
+                <li class="project">
+                    <a href="portfolio-pages/alura-desafio-frontend.html" target="_blank">
+                        <div class="window-top">
+                            <h2>Desafio FrontEnd Alura</h2>
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </div>
+                        <div class="project__img">
+                            <img class="project__bg-up" src="assets/img/Logo Barbearia Alura.png" alt="Página Barbearia Alura">
+                            <div class="project__shaddow"></div> 
+                            <img class="project__bg-base" src="assets/img/pages/desafio-frontend-alura/editor.jpg" alt="Página Barbearia Alura">
+                        </div>
                     </a>
                 </li>
             </ul>
@@ -120,7 +171,8 @@
                     <div class="timeline-companies">
                         <h3 class="timeline-year">2012</h3>
                         <div class="timeline-vertical-line"></div>
-                        <img class="timeline-logo" src="./assets/img/timeline-logo-petrobras.png" alt="Logo da Petrobras">
+                        <img class="timeline-logo" src="./assets/img/timeline-logo-petrobras.png"
+                            alt="Logo da Petrobras">
                     </div>
                     <div class="timeline-companies">
                         <h3 class="timeline-year">2013</h3>
@@ -164,13 +216,22 @@
                     </div>
                 </div>
                 <div class="carousel__indicadores" data-navegacao>
-                    <button class="carousel__indicador carousel__indicador--ativo" aria-label="Slide 1" data-indicador="0"></button>
+                    <button class="carousel__indicador carousel__indicador--ativo" aria-label="Slide 1"
+                        data-indicador="0"></button>
                     <button class="carousel__indicador" aria-label="Slide 2" data-indicador="1"></button>
                     <button class="carousel__indicador" aria-label="Slide 3" data-indicador="2"></button>
                 </div>
             </div>
             <p class="main-text">
-                Meu primeiro contato com lógica de programação, C e C++ foi no início da graduação em Engenharia de Produção. Trabalhei com RH, logística, controle de estoque, e mais recentemente tive contato direto com times de tecnologia em uma FinTech. Nessa empresa iniciei analisando a qualidade do atendimento no Customer Sucess, dei alguns treinamentos, mentorei treinadores e fui líder de time. Com olhar mais analítico, apresentei estudos e planos de ação para melhoria da experiência do usuário nas trocas com as lideranças e outros times. Trabalhar com tecnologia virou uma chavinha dentro de mim, de que eu conseguiria aprender e entrar nesse mundo. Adoro resolver problemas, ser desafiada, ter avanços de aprendizado palpáveis, e aprender ensinando. Agora estou focada no estudo de HTML, CSS e JavaScript, e espero futuramente integrar um supertime de Devs!
+                Meu primeiro contato com lógica de programação, C e C++ foi no início da graduação em Engenharia de
+                Produção. Trabalhei com RH, logística, controle de estoque, e mais recentemente tive contato direto com
+                times de tecnologia em uma FinTech. Nessa empresa iniciei analisando a qualidade do atendimento no
+                Customer Sucess, dei alguns treinamentos, mentorei treinadores e fui líder de time. Com olhar mais
+                analítico, apresentei estudos e planos de ação para melhoria da experiência do usuário nas trocas com as
+                lideranças e outros times. Trabalhar com tecnologia virou uma chavinha dentro de mim, de que eu
+                conseguiria aprender e entrar nesse mundo. Adoro resolver problemas, ser desafiada, ter avanços de
+                aprendizado palpáveis, e aprender ensinando. Agora estou focada no estudo de HTML, CSS e JavaScript, e
+                espero futuramente integrar um supertime de Devs!
             </p>
         </section>
     </main>
@@ -184,4 +245,5 @@
     </footer>
     <script src="./scripts/main.js"></script>
 </body>
+
 </html>

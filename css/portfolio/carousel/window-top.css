@@ -1,7 +1,11 @@
 .window-top {
     display: flex;
-    justify-content: end;
+    /* justify-content: end; */
     align-items: center;
+
+    text-align: left;
+    padding-left: 1rem;
+    box-sizing: border-box;
 
     position: relative;
     
@@ -10,16 +14,24 @@
     background-color: var(--color-white-first);
 }
 
-.window-top > i:first-child {
+.window-top > h2 {
+    color: var(--color-black-second);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.window-top > i:first-of-type {
     width: 10px;
     height: 10px;
 
     margin-right: 20px;
 
     border: solid 1px black;
+    position: absolute;
+    right: 5%;
 }
 
-.window-top > i:nth-child(2) {
+.window-top > i:nth-of-type(2) {
     width: 10px;
 
     position: absolute;
@@ -35,7 +47,8 @@
 
     margin-right: 5px;
 
-    position: relative;
+    position: absolute;
+    right: 1%;
 }
 
 .window-top > i:last-child::before, .window-top > i:last-child::after {
@@ -56,3 +69,4 @@
 .window-top > i:last-child::after {
     transform: rotate(-45deg);
 }
+
