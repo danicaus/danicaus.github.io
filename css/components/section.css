@@ -1,7 +1,7 @@
 .section {
     background-color: var(--color-second);
     padding: 5rem 10% 10rem 10%;
-    border-bottom: 10px double var(--color-first);
+    border-bottom: 1rem double var(--color-first);
 }
 
 .section .title {
